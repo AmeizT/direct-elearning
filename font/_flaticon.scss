@@ -1,0 +1,125 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 18/03/2018 18:08
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-processor:before { content: "\f100"; }
+.flaticon-graduate-certificate:before { content: "\f101"; }
+.flaticon-certificate:before { content: "\f102"; }
+.flaticon-dollar-sign-and-piles-of-coins:before { content: "\f103"; }
+.flaticon-funds:before { content: "\f104"; }
+.flaticon-credit-cards-payment:before { content: "\f105"; }
+.flaticon-give-money:before { content: "\f106"; }
+.flaticon-coins:before { content: "\f107"; }
+.flaticon-bars:before { content: "\f108"; }
+.flaticon-man-bald-head-with-dollars-symbols-as-thoughts-about-money:before { content: "\f109"; }
+.flaticon-newspaper:before { content: "\f10a"; }
+.flaticon-information:before { content: "\f10b"; }
+.flaticon-pie-chart:before { content: "\f10c"; }
+.flaticon-megaphone-1:before { content: "\f10d"; }
+.flaticon-megaphone:before { content: "\f10e"; }
+.flaticon-seo-performance-marketing-graphic:before { content: "\f10f"; }
+.flaticon-contact:before { content: "\f110"; }
+.flaticon-email:before { content: "\f111"; }
+.flaticon-handyman-tools:before { content: "\f112"; }
+.flaticon-wall-clock:before { content: "\f113"; }
+.flaticon-female-graduate-student:before { content: "\f114"; }
+.flaticon-responsive-design-symbol:before { content: "\f115"; }
+.flaticon-front-of-bus:before { content: "\f116"; }
+.flaticon-computer-worker-on-frontal-view:before { content: "\f117"; }
+.flaticon-architect-with-building-project:before { content: "\f118"; }
+.flaticon-teacher-with-laptop:before { content: "\f119"; }
+.flaticon-projector:before { content: "\f11a"; }
+.flaticon-website-design-symbol:before { content: "\f11b"; }
+.flaticon-vintage-telephone-call:before { content: "\f11c"; }
+.flaticon-old-typical-phone:before { content: "\f11d"; }
+.flaticon-old-school:before { content: "\f11e"; }
+.flaticon-home-page:before { content: "\f11f"; }
+.flaticon-tablet:before { content: "\f120"; }
+.flaticon-network:before { content: "\f121"; }
+.flaticon-case:before { content: "\f122"; }
+.flaticon-cctv:before { content: "\f123"; }
+.flaticon-desk-1:before { content: "\f124"; }
+.flaticon-smartboard-1:before { content: "\f125"; }
+.flaticon-talking:before { content: "\f126"; }
+.flaticon-classroom:before { content: "\f127"; }
+.flaticon-open-book:before { content: "\f128"; }
+.flaticon-briefcase:before { content: "\f129"; }
+.flaticon-laptop:before { content: "\f12a"; }
+    
+    $font-Flaticon-processor: "\f100";
+    $font-Flaticon-graduate-certificate: "\f101";
+    $font-Flaticon-certificate: "\f102";
+    $font-Flaticon-dollar-sign-and-piles-of-coins: "\f103";
+    $font-Flaticon-funds: "\f104";
+    $font-Flaticon-credit-cards-payment: "\f105";
+    $font-Flaticon-give-money: "\f106";
+    $font-Flaticon-coins: "\f107";
+    $font-Flaticon-bars: "\f108";
+    $font-Flaticon-man-bald-head-with-dollars-symbols-as-thoughts-about-money: "\f109";
+    $font-Flaticon-newspaper: "\f10a";
+    $font-Flaticon-information: "\f10b";
+    $font-Flaticon-pie-chart: "\f10c";
+    $font-Flaticon-megaphone-1: "\f10d";
+    $font-Flaticon-megaphone: "\f10e";
+    $font-Flaticon-seo-performance-marketing-graphic: "\f10f";
+    $font-Flaticon-contact: "\f110";
+    $font-Flaticon-email: "\f111";
+    $font-Flaticon-handyman-tools: "\f112";
+    $font-Flaticon-wall-clock: "\f113";
+    $font-Flaticon-female-graduate-student: "\f114";
+    $font-Flaticon-responsive-design-symbol: "\f115";
+    $font-Flaticon-front-of-bus: "\f116";
+    $font-Flaticon-computer-worker-on-frontal-view: "\f117";
+    $font-Flaticon-architect-with-building-project: "\f118";
+    $font-Flaticon-teacher-with-laptop: "\f119";
+    $font-Flaticon-projector: "\f11a";
+    $font-Flaticon-website-design-symbol: "\f11b";
+    $font-Flaticon-vintage-telephone-call: "\f11c";
+    $font-Flaticon-old-typical-phone: "\f11d";
+    $font-Flaticon-old-school: "\f11e";
+    $font-Flaticon-home-page: "\f11f";
+    $font-Flaticon-tablet: "\f120";
+    $font-Flaticon-network: "\f121";
+    $font-Flaticon-case: "\f122";
+    $font-Flaticon-cctv: "\f123";
+    $font-Flaticon-desk-1: "\f124";
+    $font-Flaticon-smartboard-1: "\f125";
+    $font-Flaticon-talking: "\f126";
+    $font-Flaticon-classroom: "\f127";
+    $font-Flaticon-open-book: "\f128";
+    $font-Flaticon-briefcase: "\f129";
+    $font-Flaticon-laptop: "\f12a";
