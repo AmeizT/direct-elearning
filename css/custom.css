@@ -380,8 +380,21 @@ button {
 	height: 100vh;
 	background-position: center;
 	//background: #000;
-	position: relative;
-	background-image: url(../img/learn.png);
+	//position: relative;
+	//background-image: url(../img/learn.png);
+}
+
+#evideo {
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+	position: absolute;
+	right: 0;
+    bottom: 0;
+}
+
+video {
+	width: 100%;
 }
 
 #hBottom {
