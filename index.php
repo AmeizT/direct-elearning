@@ -36,23 +36,12 @@
 				<h1>Smarter and better <br>approach to learning<b>.</b></h1>
 				<span id="tline"></span>
 				<p>Embraced by millennial students and tutors; eLearning integrates information communication technology with teaching<br> and learning, therefore empowering tutors and engaging learners.</p>
-				<button>Learn More</button>
+				<button>Teacher Devices</button>
 				<span id="scroll"></span>
 			</div>
 
 			<div id="hBottom">
-				<div id="scroll">
-					
-				</div>
-
-				<nav id="heroSocial">
-					<ul>
-						<li><a href="https://www.facebook.com/directelearning/" class="fa fa-facebook-square" target="_blank"></a></li>
-						<li><a href="#" class="fa fa-twitter"></a></li>
-						<li><a href="#" class="fa fa-instagram"></a></li>
-						<li><a href="#" class="fa fa-linkedin-square"></a></li>
-					</ul>
-				</nav>
+				<?php include 'inc/social.php'; ?>
 			</div>
 		</div>
 	</section>

@@ -6,9 +6,20 @@
 			<!-- Navigation Menu -->
 			<nav id="menuTop" role="navigation">
 				<ul>
-					<li><a href="index.php">Welcome</a></li>
+					<li class="<?php if(basename($_SERVER['SCRIPT_NAME']) == 'index.php'){echo 'selected'; }else { echo ''; } ?>"><a href="index.php">Welcome</a></li>
 					<li><a href="business.html">Business</a></li>
-					<li><a href="products.php">Products</a></li>
+					<div class="dropdown">
+						<li class="dropbtn"><a href="products.php">Products</a>	</li>
+						<div class="dropdown-content">
+						    <a href="#">Student Devices</a>
+						    <a href="#">Teacher Devices</a>
+						    <a href="#">Laptop Tablets</a>
+						    <a href="#">Classmate PCs</a>
+						    <a href="#">Desktops</a>
+						    <a href="#">Modern Classroom Furniture</a>
+						    
+						</div>
+					</div>
 					<li><a href="software.html">Software</a></li>
 					<li><a href="contact.html">Contacts</a></li>
 				</ul>

@@ -22,32 +22,20 @@
 	</section>
 
 	<section>
-		<div class="container-float" id="hero">
+		<div class="container-float" id="pages">
 			<div class="" id="tradeMark">
 				<span>&copy 2018 Direct eLearning</span>
 			</div>
 
-			<div class="" id="hContent">
-				<h1>Smarter and better <br>approach to learning<b>.</b></h1>
+			<div class="" id="hContent-pages">
+				<h1>Products<b>.</b></h1>
 				<span id="tline"></span>
-				<p>Embraced by millennial students and tutors; eLearning integrates information communication technology with teaching<br> and learning, therefore empowering tutors and engaging learners.</p>
-				<button>Learn More</button>
+				<p>Interactive LED Information Kiosk, </p>
 				<span id="scroll"></span>
 			</div>
 
 			<div id="hBottom">
-				<div id="scroll">
-					
-				</div>
-
-				<nav id="heroSocial">
-					<ul>
-						<li><a href="#" class="fa fa-facebook-square"></a></li>
-						<li><a href="#" class="fa fa-tiwtter"></a></li>
-						<li><a href="#" class="fa fa-instagram"></a></li>
-						<li><a href="#" class="fa fa-linkedin-square"></a></li>
-					</ul>
-				</nav>
+				<?php include 'inc/social.php'; ?>
 			</div>
 		</div>
 	</section>
