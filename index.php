@@ -8,6 +8,7 @@
 	 ?>
 </head>
 <body class="main">
+	<?php include 'inc/facebook.php'; ?>
 	<section>
 		<?php include 'inc/nav-overlay.php'; ?>
 	</section>
@@ -35,7 +36,9 @@
 				<h1>Smarter and better <br>approach to learning<b>.</b></h1>
 				<span id="tline"></span>
 				<p>Embraced by millennial students and tutors; eLearning integrates information communication technology with teaching<br> and learning, therefore empowering tutors and engaging learners.</p>
-				<button>Teacher Devices</button>
+				<item style="padding-left: 22px;">
+				<div  class="fb-like" data-href="https://www.facebook.com/directelearning/"   data-width="300" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true" id="facebook" style="background-color:rgba(255, 255, 255, 0.4);"></div>
+                </item>
 				<span id="scroll"></span>
 			</div>
 

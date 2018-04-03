@@ -7,7 +7,7 @@
 			<nav id="menuTop" role="navigation">
 				<ul>
 					<li class="<?php if(basename($_SERVER['SCRIPT_NAME']) == 'index.php'){echo 'selected'; }else { echo ''; } ?>"><a href="index.php">Welcome</a></li>
-					<li><a href="business.html">Business</a></li>
+					<li><a href="">Business</a></li>
 					<div class="dropdown">
 						<li class="dropbtn"><a href="#">Products</a>	</li>
 						<div class="dropdown-content">
