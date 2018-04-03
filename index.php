@@ -3,20 +3,19 @@
 
 <head>
 	<?php
-		$title = "Home "; 
+		$title = "Home ";
 		include 'inc/head.php';
 	 ?>
 </head>
-
 <body class="main">
 	<section>
-		<?php include 'inc/overlay.php'; ?>
+		<?php include 'inc/nav-overlay.php'; ?>
 	</section>
 
 	<section id="pageHeader">
 		<?php include 'inc/desktop-nav.php'; ?>
 	</section>
-
+	
 	<section id="mobile">
 		<?php include 'inc/mobile-nav.php'; ?>
 	</section>
@@ -27,7 +26,7 @@
 			<video autoplay muted loop id="evideo">
 				<source src="vid/elearn.mp4" type="video/mp4">
 			</video>
-			
+
 			<div class="" id="tradeMark">
 				<span>&copy 2018 Direct eLearning</span>
 			</div>
@@ -94,7 +93,6 @@
 			</div>
 		</div>
 	</section>
-
 	<section>
 		<div class="container-float text-center" id="callout">
 			<span id="vline"></span>
@@ -116,7 +114,7 @@
 
 			<div class="container" id="partnersLogos">
 				<div class="container" id="allLogos">
-					<!-- Partner Logo 1 --> 
+					<!-- Partner Logo 1 -->
 					<div id="logo">
 						<img src="img/ms.png" alt="microsoft" />
 					</div>
