@@ -20,8 +20,8 @@
 
 						</div>
 					</div>
-					<li><a href="software.html">Software</a></li>
-					<li><a href="contact.html">Contacts</a></li>
+					<li><a href="">Software</a></li>
+					<li><a href="">Contacts</a></li>
 				</ul>
 			</nav>
 
