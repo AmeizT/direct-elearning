@@ -88,6 +88,12 @@ b {
 	font-family: 'Poppins', sans-serif;
 }
 
+.page-title b {
+	color: #031116;
+}
+
+
+
 /* Html5 Button Styling */
 button {
 	background-color: #00AFF0;
@@ -374,15 +380,197 @@ button {
 	color: #00AFF0;
 }
 
+
+
+
 /* Hero Section */
 #hero {
 	width: 100%;
 	height: 100vh;
 	background-position: center;
-	//background: #000;
-	//position: relative;
-	//background-image: url(../img/learn.png);
 }
+
+
+/*********************************
+ Hero Section for all pages her 
+ *********************************/
+
+/* student products page */
+#student-products-page {
+	width: 100%;
+	height: 60vh;
+	background-position: center;
+	background: #000;
+	background-image: url(../img/Interactive-LED.jpg);
+
+	 /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* teacher products page */
+#teacher-products-page {
+	width: 100%;
+	height: 60vh;
+	background-position: center;
+	background: #000;
+	background-image: url(../img/teacher-products.jpg);
+
+	 /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* computers page */
+#computers-page {
+	width: 100%;
+	height: 60vh;
+	background-position: center;
+	background: #000;
+	background-image: url(../img/laptop.jpg);
+
+	 /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* furniture page */
+#furniture-page {
+	width: 100%;
+	height: 60vh;
+	background-position: center;
+	background: #000;
+	background-image: url(../img/classroom.jpg);
+
+	 /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* cctv page */
+#cctv-page {
+	width: 100%;
+	height: 60vh;
+	background-position: center;
+	background: #000;
+	background-image: url(../img/cctv.jpg);
+
+	 /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* networking page */
+#network-page {
+	width: 100%;
+	height: 60vh;
+	background-position: center;
+	background: #000;
+	background-image: url(../img/network.png);
+
+	 /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ICT Consulting page */
+#ict-page {
+	width: 100%;
+	height: 60vh;
+	background-position: center;
+	background: #000;
+	background-image: url(../img/ict.jpg);
+
+	 /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* training page */
+#training-page {
+	width: 100%;
+	height: 60vh;
+	background-position: center;
+	background: #000;
+	background-image: url(../img/training.png);
+
+	 /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* software page */
+#software-page {
+	width: 100%;
+	height: 60vh;
+	background-position: center;
+	background: #000;
+	background-image: url(../img/software.jpg);
+
+	 /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* contact page */
+#contact-page {
+	width: 100%;
+	height: 60vh;
+	background-position: center;
+	background: #000;
+	background-image: url(../img/contact.jpg);
+
+	 /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#icons{
+	color: #FFF;
+}
+
 
 #evideo {
 	min-width: 100%;
@@ -471,7 +659,7 @@ video {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;	
+	background-size: cover;
 	box-sizing: border-box;
 }
 
@@ -508,7 +696,7 @@ video {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;	
+	background-size: cover;
 	box-sizing: border-box;
 }
 
@@ -568,7 +756,7 @@ video {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;	
+	background-size: cover;
 	box-sizing: content-box;
 }
 
@@ -616,7 +804,7 @@ video {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;	
+	background-size: cover;
 	box-sizing: content-box;
 }
 
@@ -724,7 +912,7 @@ cite {
 	display: block;
 	padding: 2px;
 	font-size: 1.065em;
-	text-transform: 
+	text-transform:
 	transition: all .2s ease-in;
 }
 
@@ -744,5 +932,123 @@ cite {
 }
 
 #fcopy p {
-	padding: 20px 20px 0; 
+	padding: 20px 20px 0;
+}
+
+
+/*************************************************************************
+	THIS CSS IS TO ALLOW DROP DOWN LOST ON MENU HOVER (Start)
+**************************************************************************/
+
+ /* Dropdown Button */
+.dropbtn {
+    background-color: rgba(0, 175, 240, 0.0);
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 175, 240, 0.7);
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 175, 240, 0);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: rgba(0, 175, 240,0.2);
+}
+
+.selected{
+	 background-color: rgba(0, 175, 240, 0.3);
+}
+
+/*************************************************************************
+	THIS CSS IS TO ALLOW DROP DOWN LOST ON MENU HOVER (End)
+**************************************************************************/
+#div-overlay{
+	height: 60%;
+	width: 50%;
+	position: relative;
+	top: 120px;
+	background-color: rgba(0, 175, 240, 0.6);
+
+}
+
+.page-title{
+	font-size: 4.4em;
+	width: 100%;
+	margin-bottom: ;
+	margin-top: 0;
+	padding-top: 0;
+	color: #ffffff;
+	font-weight: 0;
+}
+
+#hContent-pages span b{
+	color:#031116;
+}
+
+.p-title{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding: 10;
+	position: relative;
+	top: -30px;
+}
+
+hr.line { 
+max-width: 30%;
+text-align: left;
+position: left;
+margin-left: 0;
+position: relative;
+    
+} 
+hr.free-space{
+	max-width: 50%;
+	border-color: #00AFF0;
+	margin-top: 20px;
+}
+#hContent-pages span{
+	position: relative;
+	left: 200px;
+	font-size: 4.4em;
+	color: #031116;
+	font-weight: 0;
+	bottom: 40px;
+}
+
+#hContent-pages span:before{
+	content: '';
+	width: 150px;
+	height: 1px;
+	background-color: #031116;
+	position: absolute;
+	right: 340px;
+	top: 70.5px;
 }
